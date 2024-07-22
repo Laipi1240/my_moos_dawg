@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-REPOSITORY="argnctu/moos-dawg-2024"
+REPOSITORY="laipi1240/my-moos-dawg"
 TAG="ubuntu20.04"
 
 IMG="${REPOSITORY}:${TAG}"

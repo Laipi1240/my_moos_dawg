@@ -220,6 +220,10 @@ RUN cd ${HOME} && git clone https://github.com/ARG-NCTU/pyivp.git \
     && cd pyivp \
     && make -f moos-dawg.Makefile
 
+###################################### MY MOOS DAWG####################################
+
+RUN cd ${HOME} && git clone git@github.com:Laipi1240/my_moos_dawg.git
+
 ###################################### MOOS #####################################
 # RUN cd ${HOME} && svn co https://oceanai.mit.edu/svn/moos-ivp-aro/releases/moos-ivp-22.8 moos-ivp \
 #     && cd moos-ivp \
