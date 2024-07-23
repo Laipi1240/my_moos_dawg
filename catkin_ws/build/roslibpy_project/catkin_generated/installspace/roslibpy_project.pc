@@ -1,0 +1,8 @@
+prefix=/home/moos-dawg/my_moos_dawg/catkin_ws/install
+
+Name: roslibpy_project
+Description: Description of roslibpy_project
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

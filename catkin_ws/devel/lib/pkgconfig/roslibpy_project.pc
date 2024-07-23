@@ -1,0 +1,1 @@
+/home/moos-dawg/my_moos_dawg/catkin_ws/devel/.private/roslibpy_project/lib/pkgconfig/roslibpy_project.pc

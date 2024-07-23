@@ -8,7 +8,7 @@ TAG="ubuntu20.04"
 IMG="${REPOSITORY}:${TAG}"
 
 USER_NAME="moos-dawg"
-REPO_NAME="my-moos-dawg"
+REPO_NAME="my_moos_dawg"
 CONTAINER_NAME="my-moos-dawg-ubuntu20.04"
 
 CONTAINER_ID=$(docker ps -aqf "ancestor=${IMG}")
@@ -54,7 +54,6 @@ docker run \
   -v "/etc/localtime:/etc/localtime:ro" \
   -v "/dev:/dev" \
   -v "/var/run/docker.sock:/var/run/docker.sock" \
-  -v $(pwd):/home/$USER_NAME \
   --user "root:root" \
   --workdir "/home/${USER_NAME}/${REPO_NAME}" \
   --name "${CONTAINER_NAME}" \
@@ -65,3 +64,4 @@ docker run \
   bash
 
 # -e "TERM=xterm-256color" \
+  # -v $(pwd):/home/$USER_NAME \

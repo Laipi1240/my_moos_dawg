@@ -1,5 +1,5 @@
 source /opt/ros/noetic/setup.bash
-source $HOME/moos-dawg-2024/catkin_ws/devel/setup.bash
+source $HOME/my_moos_dawg/catkin_ws/devel/setup.bash
 # export ROS_PACKAGE_PATH=${ROS_PACKAGE_PATH}:~/moos-dawg-2024/Firmware
 # . ~/moos-dawg-2024/Firmware/Tools/setup_gazebo.bash ~/moos-dawg-2024/Firmware ~/moos-dawg-2024/Firmware/build/px4_sitl_default
 

@@ -1,0 +1,6 @@
+devel_space: /home/moos-dawg/my_moos_dawg/catkin_ws/devel
+install: false
+install_space: /home/moos-dawg/my_moos_dawg/catkin_ws/install
+profile: default
+source_space: /home/moos-dawg/my_moos_dawg/catkin_ws/src
+workspace: /home/moos-dawg/my_moos_dawg/catkin_ws
