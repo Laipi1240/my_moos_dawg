@@ -1,0 +1,4 @@
+<launch>
+    <node name="service" pkg="roslibpy_project" type="service.py" output="screen">
+    </node>
+</launch>

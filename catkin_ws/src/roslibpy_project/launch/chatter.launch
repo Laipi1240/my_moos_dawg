@@ -1,0 +1,6 @@
+<launch>
+    <node name="talker" pkg="roslibpy_project" type="talker.py" output="screen">
+    </node>
+    <node name="listener" pkg="roslibpy_project" type="listener.py" output="screen">
+    </node>
+</launch>

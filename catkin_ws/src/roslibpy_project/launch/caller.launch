@@ -1,0 +1,4 @@
+<launch>
+    <node name="caller" pkg="roslibpy_project" type="call_service.py" output="screen">
+    </node>
+</launch>
