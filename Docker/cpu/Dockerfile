@@ -220,9 +220,25 @@ RUN cd ${HOME} && git clone https://github.com/ARG-NCTU/pyivp.git \
     && cd pyivp \
     && make -f moos-dawg.Makefile
 
-###################################### MY MOOS DAWG####################################
+######################################Ardupilot#############################################
 
-RUN cd ${HOME} && git clone https://github.com/Laipi1240/my_moos_dawg.git 
+# RUN cd ${HOME} && git clone --recurse-submodules https://github.com/Laipi1240/ardupilot.git
+# WORKDIR ${HOME}/ardupilot
+# RUN git submodule update --init --recursive
+# RUN chmod +x ${HOME}/ardupilot/waf
+# RUN chmod +x ${HOME}/ardupilot/Tools/environment_install/install-prereqs-ubuntu.sh
+# RUN ${HOME}/ardupilot/Tools/environment_install/install-prereqs-ubuntu.sh -y
+# RUN ./waf clean
+
+# RUN wget https://firmware.ardupilot.org/Tools/STM32-tools/gcc-arm-none-eabi-10-2020-q4-major-x86_64-linux.tar.bz2 \
+#     && tar -xjvf gcc-arm-none-eabi-10-2020-q4-major-x86_64-linux.tar.bz2 -C ${HOME}/compiler \
+#     && rm gcc-arm-none-eabi-10-2020-q4-major-x86_64-linux.tar.bz2
+
+# RUN export PATH=$PATH:${HOME}/compiler/gcc-arm-none-eabi-10-2020-q4-major/bin \
+#     && sudo usermod -a -G dialout ${NB_USER} \
+#     && cd /usr/lib/ccache \
+#     && sudo ln -s /usr/bin/ccache arm-none-eabi-g++ \
+#     && sudo ln -s /usr/bin/ccache arm-none-eabi-gcc
 
 ###################################### MOOS #####################################
 # RUN cd ${HOME} && svn co https://oceanai.mit.edu/svn/moos-ivp-aro/releases/moos-ivp-22.8 moos-ivp \
