@@ -1,3 +1,6 @@
 [submodule "moos-dawg-2024"]
 	path = moos-dawg-2024
 	url = git@github.com:ARG-NCTU/moos-dawg-2024.git
+[submodule "ardupilot"]
+	path = ardupilot
+	url = ./ardupilot
